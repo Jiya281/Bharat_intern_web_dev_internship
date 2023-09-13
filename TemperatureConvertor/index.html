@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Temperature Converter</title>    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="heading">
+                <h1>Temperature Converter</h1>
+                <span class="temp-icon"><i class="fa-solid fa-temperature-high"></i></span>
+            </div>
+
+
+            <div id="farenheit">
+                <input type="number" placeholder="Temp in Fahrenheit" id="fahrenheitTemp">
+                <span class="symbol">&#8457;</span>
+            </div>
+            
+            <div id="kelvin">
+                <input type="number" placeholder="Temp in Kelvin" id="kelvinTemp">
+                <span class="symbol">&#8490;</span>
+            </div>
+            <br><br>
+            <div id="celsius">             
+                <input  type="number" placeholder="Enter temp in Celsius" id="celsiusTemp">
+                <span class="symbol">&#8451;</span>
+            </div>
+            
+            <br><br>
+
+            <div class="buttons">
+                <button id="convert">Convert</button>
+                <button id="clear">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

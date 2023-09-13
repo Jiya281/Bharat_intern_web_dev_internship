@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color:#44aa3b;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    background-color: rgb(194, 243, 198); 
+    border-radius: 1rem;   
+    box-shadow: 8px 0px 30px 2px rgb(219, 245, 214);
+    padding: 1.875rem;
+}
+
+h1 {
+    display: flex;
+    padding-bottom: 1.25rem;
+    font-size: 50px;
+    font-weight: bolder;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.temp-icon{
+    font-size: 45px;
+    color: #44aa3b;
+}
+
+input{
+    flex: 5;
+    height: 3.75rem;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+
+#celsius{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: min-content;
+    padding-left: 165px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+#farenheit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: min-content;
+    padding-right: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+#kelvin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: min-content;
+    padding-left: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-flex;    
+}
+
+.symbol{
+    flex: 1;
+    height: 3.75rem;
+    line-height: 60px;
+    padding: 0 10px ;
+    text-align: center;
+    font-size: 30px;
+    background-color: #2cdd34;
+    color:greenyellow;
+    border-radius: 0 8px 8px 0;
+}
+
+.buttons{
+    margin-top: 7px;
+    text-align: center;
+}
+.buttons button{
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background: #2fc247;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#clear {
+    margin: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.buttons button:hover{
+    color: greenyellow;   
+}
+
